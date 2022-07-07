@@ -1,0 +1,63 @@
+body {
+    box-sizing: border-box;
+    background-color: white;
+}
+#main-content {
+    clear: right;
+    
+}
+
+#header-nav {
+   background-color: white;
+   border: none;
+   margin-bottom: 150px;
+   padding: 5px;
+   margin-right: 0;
+}
+.nav-list a {
+    margin-right: 10px;
+}
+
+#me {
+    border-radius: 50px;
+}
+
+h1 {
+    font-size: 2.8em;
+    font-weight: bold;
+    padding: 5px;
+}
+#g {
+    color: royalblue;
+}
+#o {
+    color: indianred;
+}
+#o2 {
+    color: yellow;
+}
+#g2 {
+    color: royalblue;
+}
+#l {
+    color: green;
+}
+#e {
+    color: indianred;
+}
+
+div > form {
+    margin-bottom: 10px;
+}
+div > button {
+    margin-bottom: 18px;
+}
+button {
+    opacity: 9;
+    margin: 10px;
+}
+
+.panel-footer div > a {
+    margin: 10px;
+    color: black;
+}
