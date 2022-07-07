@@ -1,0 +1,126 @@
+body{
+	font-size: 0.9rem;
+	font-style: inherit;
+	font-family: sans-serif;
+	margin: 0;
+}
+
+header{
+	margin: 0.6rem;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+.text{
+	text-align: right;
+}
+
+.text a{
+	padding-left: 0.5rem;
+	margin-left: 0.5rem;
+}
+
+.img{
+	border-radius: 50px;
+}
+
+
+#banner{
+	padding-top: 20px;
+	text-align: center;
+}
+
+.search-bar {
+	margin-left: 20em;
+  	width: 40%;
+  	position: relative;
+  	margin-top: 30px;
+}
+
+.search-bar input {
+  width: 100%;
+  height: 40px;
+  border: 2px solid #9e979a;
+  border-radius: 25px;
+  outline: none;
+}
+
+.search-ico {
+  position: absolute;
+  left: 10px;
+  top: 13px;
+}
+
+.microphone-ico {
+  position: absolute;
+  right: 10px;
+  top: 13px;
+}
+
+
+#lucky button{
+	padding: 10px;
+	margin-right: 30px;
+	margin-top: 40px;
+	border: none;
+	cursor: pointer;
+}
+
+#offer{
+	margin-top: 50px;
+}
+
+h4{
+	color: black;
+	padding-right: 40px;
+}
+
+h4 a{
+	padding-right: 15px;
+	margin-left: 10px;
+}
+
+footer{
+	background-color: #eeeeee;
+	margin-top: 152px;
+}
+
+#Nigeria a{
+	color: #9e979a;
+	padding: 10px;
+}
+hr{
+	color: #e0dfe0;
+}
+
+p{
+	color: #9e979a;
+	padding: 10px;
+}
+#foot{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	display: flex;
+	margin: 10px;
+}
+
+
+@media(max-width: 700px){
+
+	.search-bar{
+		margin-left: 10em;
+	}
+}
+
+@media(min-width: 1000px){
+
+	.search-bar{
+		margin-left: 32em;
+	}
+}
