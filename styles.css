@@ -67,6 +67,72 @@ input#search {
     height: 40px;
     border-radius: 50px;
     border: 1px solid rgb(201, 201, 201);
-    margin-left: 410px;
+    margin-left: 400px;
     margin-top: 20px;
+    margin-bottom: 35px;
+    padding-left: 50px;
+}
+
+input#search:hover {
+    box-shadow: 1px 1px 1px grey;
+}
+
+#googlesearch {
+    position: absolute;
+    left: 430px;
+    padding-top: 35px;
+    color: rgb(170, 170, 170);
+}
+
+#googlemic {
+    position: absolute;
+    right: 390px;
+    padding-top: 34px;
+    color: blue;
+    cursor: pointer;
+}
+
+.GG-search {
+    width: 130px;
+    height: 35px;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    left: 540px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.GG-search:hover {
+    box-shadow: 1px 1px 1px rgb(190, 190, 190);
+}
+
+.Lucky {
+    width: 140px;
+    height: 35px;
+    border: none;
+    font-size: 14px;
+    position: absolute;
+    left: 680px;
+    background-color: rgb(245, 245, 245);
+    cursor: pointer;
+}
+
+.Lucky:hover {
+    box-shadow: 1px 1px 1px rgb(190, 190, 190);
+}
+
+.context {
+    margin-top: 70px;
+    text-align: center;
+    font-size: 14px;
+}
+
+span {
+    color: rgb(34, 34, 180);
+    cursor: pointer;
+}
+
+span:hover {
+    text-decoration: underline;
 }
