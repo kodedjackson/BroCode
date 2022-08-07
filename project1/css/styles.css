@@ -206,44 +206,29 @@ form input, form button{
 }
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .menu{
-	width: 30%;
-}
-	.menu:nth-child(2){
-	margin: 0 3% 0 3%;
-}
+
 }
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-	.menu{
-	width: 30%;
-}
-	.menu:nth-child(2){
-	margin: 0 3% 0 3%;
-}
+
 
 }
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-	
-	/* .menu:nth-child(2){
-	margin-left: 2%;
-}
-	.menu:nth-child(2), .menu:nth-child(1){
-		width: 49%;
+	#midsection{
+		border-left: 0;
+		border-right: 0;
 	}
-	#nav-list li{
-		border-bottom: 2px solid black;
-	}
-	#nav-list li:nth-child(5){
-		border-bottom: 0px;
-	} */
 
 }
 @media (max-width: 767px) {
 	
 	#nav-list li{
 		border-bottom: 2px solid black;
+	}
+	#midsection{
+		border-left: 0;
+		border-right: 0;
 	}
 }
